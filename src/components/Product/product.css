@@ -1,0 +1,30 @@
+.product-container {
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #e5dfd9;
+}
+.product-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 10px;
+  margin: 10px;
+}
+.text-content {
+  padding: 10px;
+}
+
+@media (max-width: 1024px) {
+  .product-container {
+    padding-top: 30px;
+  }
+  .product-content {
+    padding: 10px 0;
+    margin: 10px 0;
+  }
+  .text-content {
+    padding: 10px 5px;
+  }
+}
